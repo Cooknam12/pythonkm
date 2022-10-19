@@ -353,6 +353,16 @@ ALTER TABLE `emp`
 
 **1.SELECT ==> 테이블 내의 데이터를 조회할 때 사용한다**
 
+(기본형식)
+select 컬럼명1, 컬럼명2...   5
+from 테이블명    1
+where 조건절  2
+group by 칼럼명   3
+having 조건절 (group묶은 다음에 조건 줄 때) 4
+order by 칼럼명( asc|desc) ==> 오름차순 혹은 내림차순  6
+
+
+
 **(1) SELECT 사용**
 - emo 테이블에서 사원번호, 사원이름, 직업을 출력하기.
 ```
